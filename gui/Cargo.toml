@@ -1,0 +1,11 @@
+[package]
+name = "wifi-manager-gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio"] }
+tokio = { version = "1", features = ["process", "fs", "rt-multi-thread", "io-util"] }
+quick-xml = "0.31"
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "1", features = ["v4"] }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WifiConfigStoreData>
+    <NetworkList>
+        <Network>
+            <WifiConfiguration>
+                <string name="SSID">"CoffeeShop_WiFi"</string>
+                <string name="PreSharedKey">"coffee2024"</string>
+                <string name="RandomizedMacAddress">02:00:00:00:00:01</string>
+                <int name="Priority" value="1"/>
+            </WifiConfiguration>
+        </Network>
+        <Network>
+            <WifiConfiguration>
+                <string name="SSID">"Home_Network"</string>
+                <string name="PreSharedKey">"MyHomePassword123"</string>
+                <string name="RandomizedMacAddress">02:00:00:00:00:02</string>
+                <int name="Priority" value="2"/>
+            </WifiConfiguration>
+        </Network>
+        <Network>
+            <WifiConfiguration>
+                <string name="SSID">"Public_Library"</string>
+                <string name="RandomizedMacAddress">02:00:00:00:00:03</string>
+                <int name="Priority" value="0"/>
+            </WifiConfiguration>
+        </Network>
+    </NetworkList>
+</WifiConfigStoreData>

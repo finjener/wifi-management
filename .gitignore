@@ -1,0 +1,24 @@
+# Data files (sensitive)
+data/network_connections/
+data/WifiConfigStore.xml
+data/WifiConfigStoreSoftAp.xml
+data/networks_report.md
+
+# Rust build artifacts
+gui/target/
+**/target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
